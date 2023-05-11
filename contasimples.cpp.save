@@ -1,0 +1,22 @@
+#include <iostream>
+#include "contasimples.hpp"
+
+float Contasimples::sacar(float saque) {
+    //this-> saque = saque;
+
+    cout << "quanto quer sacar" << endl;
+    cin >> saque;
+    if(saque>getSaldo()) {
+        cout << "nao eh possivel sacar" << endl;
+    }else{
+    setSaldo(getSaldo() - saque);
+    cout << "Saldo: " << getSaldo() << endl;
+    }
+
+}
+
+ string Contasimples::criarchavePIX(string chavePIX) {
+    this->chavePIX = chavePIX;
+    cin >> chavePIX;
+    cout << "sua chave pix eh" << chavePIX << endl;
+ }

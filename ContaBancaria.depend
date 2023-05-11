@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1683326438 source:c:\users\ander\códigosvisualstudiocode\contabancaria\conta.cpp
+	<iostream>
+	"conta.hpp"
+
+1683326079 c:\users\ander\códigosvisualstudiocode\contabancaria\conta.hpp
+	<iostream>
+	<string>
+	"titular.hpp"
+
+1683300060 source:c:\users\ander\códigosvisualstudiocode\contabancaria\contaespecial.cpp
+	<iostream>
+	"contaespecial.hpp"
+
+1683326079 c:\users\ander\códigosvisualstudiocode\contabancaria\contaespecial.hpp
+	<iostream>
+	"conta.hpp"
+
+1683326395 source:c:\users\ander\códigosvisualstudiocode\contabancaria\contapoupanca.cpp
+	<iostream>
+	"contapoupanca.hpp"
+
+1683326079 c:\users\ander\códigosvisualstudiocode\contabancaria\contapoupanca.hpp
+	<iostream>
+	"conta.hpp"
+
+1683326079 source:c:\users\ander\códigosvisualstudiocode\contabancaria\contasimples.cpp
+	<iostream>
+	"contasimples.hpp"
+
+1683120324 c:\users\ander\códigosvisualstudiocode\contabancaria\contasimples.hpp
+	<iostream>
+	"conta.hpp"
+
+1683326079 source:c:\users\ander\códigosvisualstudiocode\contabancaria\main.cpp
+	<iostream>
+	<vector>
+	"conta.hpp"
+	"contasimples.hpp"
+	"contaespecial.hpp"
+	"titular.hpp"
+	"contapoupanca.hpp"
+
+1683304642 c:\users\ander\códigosvisualstudiocode\contabancaria\titular.hpp
+	<iostream>
+	<string>
+
+1683300511 source:c:\users\ander\códigosvisualstudiocode\contabancaria\titular.cpp
+	<iostream>
+	"titular.hpp"
+	<string>
+

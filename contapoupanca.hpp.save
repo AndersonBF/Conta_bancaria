@@ -1,0 +1,14 @@
+#include <iostream>
+#include "conta.hpp"
+
+class Contapoupanca : public Conta {
+private:
+     static float taxaDeJurosAnual;
+  
+public:
+    Contapoupanca() : Conta() {}
+
+float sacar(float saque);
+float calcularRendimentoMensal();
+static void modificarTaxadeJuros(float modificarTaxadeJurosAnual);
+};
